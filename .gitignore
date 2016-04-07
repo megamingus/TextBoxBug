@@ -17,6 +17,8 @@
 [Rr]eleases/
 x64/
 x86/
+
+build/
 bld/
 [Bb]in/
 [Oo]bj/
@@ -140,6 +142,12 @@ publish/
 # TODO: Comment the next line if you want to checkin your web deploy settings 
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
+
+## TODO: Comment the next line if you want to checkin your
+## web deploy settings but do note that will include unencrypted
+## passwords
+#*.pubxml
+
 *.publishproj
 
 # NuGet Packages
@@ -169,6 +177,14 @@ ApplicationInsights.config
 AppPackages/
 BundleArtifacts/
 
+
+# Windows Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store app package directory
+AppPackages/
+
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
@@ -177,6 +193,7 @@ BundleArtifacts/
 
 # Others
 ClientBin/
+[Ss]tyle[Cc]op.*
 ~$*
 *~
 *.dbmdl
@@ -234,3 +251,8 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
