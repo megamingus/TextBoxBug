@@ -11,12 +11,12 @@
         <TextBlock Text="This bug is present when using custom fonts"/>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="The format is lost -->"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <TextBox x:Name="textBox" Text="This should be bold and italic" FontStyle="Italic" FontWeight="Bold" FontFamily="Assets/Fonts/LazySpringDayDemo.ttf#Lazy Spring Day Demo"/>
+            <TextBox x:Name="textBox" Text="This should be bold, italic and red" FontStyle="Italic" FontWeight="Bold" FontFamily="Assets/Fonts/LazySpringDayDemo.ttf#Lazy Spring Day Demo" Foreground="Red"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal">
             <TextBlock Text="This is how it should look  -->"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            <TextBlock x:Name="textBlock" Text="This should be bold and italic" FontStyle="Italic" FontWeight="Bold" FontFamily="Assets/Fonts/LazySpringDayDemo.ttf#Lazy Spring Day Demo"/>
+            <TextBlock x:Name="textBlock" Text="This should be bold, italic and red" FontStyle="Italic" FontWeight="Bold" FontFamily="Assets/Fonts/LazySpringDayDemo.ttf#Lazy Spring Day Demo" Foreground="Red"/>
         </StackPanel>
     </StackPanel>
 </Page>
